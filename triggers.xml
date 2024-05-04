@@ -2,7 +2,16 @@
 <TriggernometryExport Version="1">
   <ExportedFolder Id="f1c24e2b-2ca9-47a4-ac6c-0324f42437a7" Name="Shaun's Triggers" Enabled="true">
 
+
+
+  
+
+    <Folders>
     <!-- NEW TRIGGERS GO HERE -->
+
+
+
+      
     <Folder Id="1f5012c3-7a24-4b24-b2ce-ec55bcc18bce" Name="P6" Enabled="true">
       <Folders />
       <Triggers>
@@ -19,10 +28,10 @@
     </Folder>
 
 
-    
-    <!--E8S START-->
 
-    <Folders>
+
+
+      
       <Folder Id="70f881ac-78b3-4184-897b-20937d4721de" Name="E8S" Enabled="true">
         <Folders>
           <Folder Id="9abc1b25-54b9-4230-abdc-96ae4ec2f745" Name="Mirror Mirror" Enabled="true">
