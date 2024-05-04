@@ -3,7 +3,20 @@
   <ExportedFolder Id="f1c24e2b-2ca9-47a4-ac6c-0324f42437a7" Name="Shaun's Triggers" Enabled="true">
 
     <!-- NEW TRIGGERS GO HERE -->
-
+    <Folder Id="1f5012c3-7a24-4b24-b2ce-ec55bcc18bce" Name="P6" Enabled="true">
+      <Folders />
+      <Triggers>
+        <Trigger Enabled="true" Source="FFXIVNetwork" Name="Double Tank Buster" Id="ff661dff-d415-4a80-9cd5-58d00036a6d3" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|785B\|">
+          <Actions>
+            <Action OrderNumber="1" UseTTSTextExpression="Double Tank Buster" ActionType="UseTTS">
+              <Condition Enabled="false" Grouping="Or" />
+            </Action>
+          </Actions>
+          <Condition Enabled="false" Grouping="Or" />
+          <Conditions />
+        </Trigger>
+      </Triggers>
+    </Folder>
 
 
     
