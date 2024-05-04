@@ -1,0 +1,522 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="f1c24e2b-2ca9-47a4-ac6c-0324f42437a7" Name="Shaun's Triggers" Enabled="true">
+
+    <!-- NEW TRIGGERS GO HERE -->
+
+
+
+    
+    <!--E8S START-->
+
+    <Folders>
+      <Folder Id="70f881ac-78b3-4184-897b-20937d4721de" Name="E8S" Enabled="true">
+        <Folders>
+          <Folder Id="9abc1b25-54b9-4230-abdc-96ae4ec2f745" Name="Mirror Mirror" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Mirror Mirror" Id="1f269210-79b0-4f21-b18d-08e7ade635fa" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D5A\|">
+                <Actions>
+                  <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="MirrorMirror" VariableExpression="${var:MirrorMirror}+1" ActionType="Variable" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" UseTTSTextExpression="Biting or Driving" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${var:MirrorMirror}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                  </Action>
+                  <Action OrderNumber="3" UseTTSTextExpression="In or Out with Reflection" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${var:MirrorMirror}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                  </Action>
+                  <Action OrderNumber="4" UseTTSTextExpression="Clockwise/Counter Movement Mechanic" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${var:MirrorMirror}" ExpressionTypeL="Numeric" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                  </Action>
+                  <Action OrderNumber="5" UseTTSTextExpression="Wildcharge Cleaves" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${var:MirrorMirror}" ExpressionTypeL="Numeric" ExpressionR="4" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                  </Action>
+                  <Action OrderNumber="6" UseTTSTextExpression="Pull to Blue Mirror" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${var:MirrorMirror}" ExpressionTypeL="Numeric" ExpressionR="5" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                  </Action>
+                  <Action OrderNumber="7" UseTTSTextExpression="Stack Behind Boss for Wings" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${var:MirrorMirror}" ExpressionTypeL="Numeric" ExpressionR="6" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                  </Action>
+                  <Action OrderNumber="8" UseTTSTextExpression="Pull Boss North" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${var:MirrorMirror}" ExpressionTypeL="Numeric" ExpressionR="7" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                  </Action>
+                  <Action OrderNumber="9" UseTTSTextExpression="Enrage" ActionType="UseTTS">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${var:MirrorMirror}" ExpressionTypeL="Numeric" ExpressionR="8" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="0ee0e346-be9b-48bd-a5cc-df8e4b3019dc" Name="Raidwides" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Absolute Zero" Id="349c628b-4ff1-4652-93d3-8eb2daada410" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4DCC\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Raidwide" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Diamond Frost" Id="6bb9bab2-e3a0-4996-a977-0d02aeeeefd6" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D6C\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Raidwide with Ice Debuff" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="9a54c90a-10fb-45c9-bf06-09798f6eb1d7" Name="Mechanics" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Biting Frost" Id="1efa6bd3-9290-48ee-a04f-fb9f5ca71bb9" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D66\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Get Behind" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Driving Frost" Id="74c81cdc-d1c5-49bb-8bcb-cb55c69c583d" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D67\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Get in Front" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Double Slap" Id="cb53b6d5-6384-4cf8-8192-87b646814064" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D65\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tank Buster" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Scythe Kick" Id="68371eb7-f6f6-4277-9989-57171bb35968" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D6E\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="In" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Axe Kick" Id="f558e79b-98b3-4da4-a988-95e082f4da45" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D6D\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Out" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Akh Morn" Id="6fc2b135-571b-434f-91f2-5ed30ec49312" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D79\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Light Party Stacks" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Morn Afah" Id="1ab6cc86-5301-4950-ae85-7fb302006c4b" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D7B\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Morn Afah" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Hallowed Wings" Id="6261c876-cfaf-4745-8e4d-c06f754db004" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D75\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Cleave" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Don't Move" Id="29ad7dab-445c-4490-9e70-b1ed796bde6e" RegularExpression="Resplendent ice, grant me strength!">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Don't Move" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Twin Stillness" Id="bd846ff2-81f3-4f8e-9fa8-91a74154eb0d" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D68\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Back then Side" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Akh Rhai" Id="549ab57b-c337-469f-9d51-47326da49554" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D99\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Move" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Middle" Id="541792c2-f9f8-4c43-9c14-39afbebef578" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D83\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Middle Safe" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Outside Safe" Id="dab311cc-6687-4ffe-8d8d-4c8c7e0c8be8" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D82\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Stay Out" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Spiteful Dance" Id="231aea55-cfdb-44e0-b8c9-94953eb83f85" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D6F\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Out then In" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Embittered Dance" Id="779cc853-4652-4a95-9124-5f1ba8e872b3" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D70\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="In then Out" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Tanks Stack" Id="46611af6-1163-49d9-b2fd-e6682e902063" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D7E\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tanks Stack" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="The House of Light" Id="a69b6e5a-5961-4906-bc7b-f8afe386f035" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D64\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Protean Spread" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Banish III - Spread" Id="7ae800e9-45c3-496a-9554-8e998189cf7f" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D81\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Spread" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Tanks Spread" Id="8d0b8597-53a3-44be-ae76-1519ca31c45b" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D7F\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Tanks Spread" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Twin Silence" Id="75cb52b9-1bbb-465e-b50d-d7981dd8fd2f" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D69\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Side then back" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Banish III - Pairs" Id="fd9a91b8-c132-415f-9094-bb7e33cce2e1" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D80\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Pairs" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Look Away" Id="81674e80-7bdb-40ea-b8d3-2d4acc35462a" RegularExpression="^00\|[^|]*\|[^|]*\|Shiva\|The Light shall usher in peace!\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Look Away" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="35147f93-b300-4415-b8bf-d8696ace4c1f" Name="Lights Rampant" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Lights Rampant" Id="8a5bfda4-6a7c-4e9d-845a-a63d2bc9c6e2" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D73\|">
+                <Actions>
+                  <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="LightRampantFlag" VariableExpression="1" ActionType="Variable" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" UseTTSTextExpression="Lights Rampant" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Chains" Id="62aa2987-67d8-4b4e-9179-2016b70f9b83" RegularExpression="^26\|[^|]*\|8C[DE]\|[^|]*\|[^|]*\|[^|]*\|[^|]*\|[^|]*\|(?&lt;name&gt;[^|]*)\|" PeriodRefire="Deny" RefirePeriodExpression="500">
+                <Actions>
+                  <Action OrderNumber="1" PlaySpeechMyself="True" UseTTSTextExpression="Chains" ActionType="UseTTS" RefireRequeue="False">
+                    <Condition Enabled="false" Grouping="And" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${var:LightRampantFlag}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                  <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="ecea21ef-2128-49ff-bc0b-bd30c8e587ac" Name="Wyrms Lament" Enabled="true">
+            <Folders>
+              <Folder Id="bead3a2c-2bdb-4bc4-92fe-d95ee8e8b0ee" Name="Wyrms Lament 2" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Source="FFXIVNetwork" Name="Wyrmfang 2" Id="f7765da3-a3f2-4e56-880e-34cc7e92e4e0" RegularExpression="^26\|[^|]*\|8D3\|[^|]*\|(?&lt;duration&gt;[^|]*).00\|[^|]*\|[^|]*\|(?&lt;playerId&gt;[^|]*)\|(?&lt;playerName&gt;[^|]*)\|">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="First Puddle, during first Morn Afah" ActionType="UseTTS">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${duration}" ExpressionTypeL="Numeric" ExpressionR="28" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="2" UseTTSTextExpression="Second Dragon, during second Morn Afah" ActionType="UseTTS">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${duration}" ExpressionTypeL="Numeric" ExpressionR="44" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${playerName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:WyrmsLament}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Source="FFXIVNetwork" Name="Wyrmclaw 2" Id="0534400a-32e5-4360-b0a6-c97265ebd06a" RegularExpression="^26\|[^|]*\|8D2\|[^|]*\|(?&lt;duration&gt;[^|]*).00\|[^|]*\|[^|]*\|(?&lt;playerId&gt;[^|]*)\|(?&lt;playerName&gt;[^|]*)\|">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="First Dragon, wait for Light Party Stack" ActionType="UseTTS">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${duration}" ExpressionTypeL="Numeric" ExpressionR="22" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="2" UseTTSTextExpression="Second Dragon, check partner, wait for Light Party Stack" ActionType="UseTTS">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${duration}" ExpressionTypeL="Numeric" ExpressionR="38" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${playerName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:WyrmsLament}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Trigger>
+                </Triggers>
+              </Folder>
+              <Folder Id="685d624b-2bd8-4eab-9e2d-0beb8c9e669e" Name="Wyrms Lament 1" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Source="FFXIVNetwork" Name="Wyrmclaw 1" Id="8d935f7e-9719-4e41-8172-3cd186a1a46a" RegularExpression="^26\|[^|]*\|8D2\|[^|]*\|(?&lt;duration&gt;[^|]*).00\|[^|]*\|[^|]*\|(?&lt;playerId&gt;[^|]*)\|(?&lt;playerName&gt;[^|]*)\|">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="First Dragon" ActionType="UseTTS">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${duration}" ExpressionTypeL="Numeric" ExpressionR="14" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="2" UseTTSTextExpression="Second Dragon" ActionType="UseTTS">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${duration}" ExpressionTypeL="Numeric" ExpressionR="22" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="3" UseTTSTextExpression="Third Dragon" ActionType="UseTTS">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${duration}" ExpressionTypeL="Numeric" ExpressionR="30" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="4" UseTTSTextExpression="Fourth Dragon" ActionType="UseTTS">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${duration}" ExpressionTypeL="Numeric" ExpressionR="38" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${playerName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:WyrmsLament}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Source="FFXIVNetwork" Name="Wyrmfang 1" Id="551abf7d-12fc-4fdf-8fd3-2b41ca41c6c6" RegularExpression="^26\|[^|]*\|8D3\|[^|]*\|(?&lt;duration&gt;[^|]*).00\|[^|]*\|[^|]*\|(?&lt;playerId&gt;[^|]*)\|(?&lt;playerName&gt;[^|]*)\|">
+                    <Actions>
+                      <Action OrderNumber="1" UseTTSTextExpression="First Puddle" ActionType="UseTTS">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${duration}" ExpressionTypeL="Numeric" ExpressionR="20" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="2" UseTTSTextExpression="Second Puddle" ActionType="UseTTS">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${duration}" ExpressionTypeL="Numeric" ExpressionR="28" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="3" UseTTSTextExpression="Third Puddle" ActionType="UseTTS">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${duration}" ExpressionTypeL="Numeric" ExpressionR="36" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="4" UseTTSTextExpression="Fourth Puddle" ActionType="UseTTS">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${duration}" ExpressionTypeL="Numeric" ExpressionR="44" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${playerName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:WyrmsLament}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Trigger>
+                </Triggers>
+              </Folder>
+            </Folders>
+            <Triggers>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Wyrms Lament Counter" Id="a2f791c6-1a01-4a1a-97ce-110490423919" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D7C\|">
+                <Actions>
+                  <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="WyrmsLament" VariableExpression="${var:WyrmsLament}+1" ActionType="Variable" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="6156d6d9-a59d-4da2-b444-d7a3bbb7f1cf" Name="Icelit Dragonsong" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Draconic Knockback" Id="cb1a0269-d443-46c4-afd7-a9e0d4b61cda" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D62\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="DPS Bait Out" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" UseTTSTextExpression="Wait for towers then go Cardinal" ActionType="UseTTS" ExecutionDelayExpression="5000">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="3" UseTTSTextExpression="2s in" ActionType="UseTTS" ExecutionDelayExpression="15000">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Icelit Dragonsong" Id="44619c54-e038-4a7d-b992-26ef2dd2fb9b" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|4D7D\|">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="Get in Position" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers>
+          <Trigger Enabled="true" Source="FFXIVNetwork" Name="Wipe" Id="7d463cb2-3a75-4229-9c2f-5507c4aaf093" RegularExpression="^(01|33\|[^|]*\|[^|]*\|400000(?&gt;03|0F)\|)">
+            <Actions>
+              <Action OrderNumber="1" VariableName="MirrorMirror" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" VariableName="WyrmsLament" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="3" VariableName="LightRampantFlag" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="4" TriggerOp="CancelTrigger" TriggerId="cb1a0269-d443-46c4-afd7-a9e0d4b61cda" ActionType="Trigger">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+        </Triggers>
+      </Folder>
+    </Folders>
+
+    <!--E8S END-->
+
+    <!--Wipe Trigger-->
+
+    <Triggers>
+      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Wipe" Id="041643aa-865a-48c8-88f6-20f05576b6bc" RegularExpression="^(01|33\|[^|]*\|[^|]*\|400000(?&gt;03|0F)\|)">
+        <Actions>
+          <Action OrderNumber="1" ActionType="Repository" ExecutionDelayExpression="500">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+    </Triggers>
+
+
+
+
+
+
+
+
+  </ExportedFolder>
+</TriggernometryExport>
