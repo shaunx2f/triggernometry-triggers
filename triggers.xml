@@ -7,7 +7,7 @@
   
 
     <Folders>
-      <Folder Id="71e38907-d4d1-4eec-b671-4c2492c3a49f" Name="Positionals" Enabled="true">
+      <Folder Id="71e38907-d4d1-4eec-b671-4c2492c3a49f" Name="Positional" Enabled="true">
         <Folders />
         <Triggers>
           <Trigger Enabled="true" Source="FFXIVNetwork" Name="Missed Positional" Id="631d214b-1433-465e-b9d6-91e6dbe754ce" RegularExpression="^21\|[^|]*\|[^|]*\|(?&lt;player&gt;[^|]*)\|((38|42|8(CF|D2)|5F3[EF]|DE[B24]|64AC|1D3[9A])\|[^|]+\|[^|]+\|[^|]+\|(7|3[9ADF]|4[36])|(DEB|58)\|[^|]+\|[^|]+\|[^|]+\|(36|44))">
@@ -25,12 +25,7 @@
       </Folder>
 
 
-
-
-
-
-
-
+      
     </Folders>
 
 
