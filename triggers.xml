@@ -2,14 +2,9 @@
 <TriggernometryExport Version="1">
   <ExportedFolder Id="f1c24e2b-2ca9-47a4-ac6c-0324f42437a7" Name="Shaun's Triggers" Enabled="true">
 
-
-
-  
-
     <Folders>
 
-
-      <Folder Id="71e38907-d4d1-4eec-b671-4c2492c3a49f" Name="Positional" Enabled="false">
+      <Folder Id="71e38907-d4d1-4eec-b671-4c2492c3a49f" Name="Positional" Enabled="true">
         <Folders />
         <Triggers>
           <Trigger Enabled="true" Source="FFXIVNetwork" Name="Missed Positional" Id="631d214b-1433-465e-b9d6-91e6dbe754ce" RegularExpression="^21\|[^|]*\|[^|]*\|(?&lt;player&gt;[^|]*)\|((38|42|8(CF|D2)|5F3[EF]|DE[B24]|64AC|1D3[9A])\|[^|]+\|[^|]+\|[^|]+\|(7|3[9ADF]|4[36])|(DEB|58)\|[^|]+\|[^|]+\|[^|]+\|(36|44))">
@@ -27,9 +22,9 @@
       </Folder>
 
 
-      <Folder Id="613abfec-d2bd-4c4d-a451-23b188057b34" Name="E3S" Enabled="false">
+      <Folder Id="613abfec-d2bd-4c4d-a451-23b188057b34" Name="E3S" Enabled="true">
         <Folders>
-          <Folder Id="b5f6db03-80fa-4ed5-8ca9-63344b908e47" Name="Raidwides" Enabled="false">
+          <Folder Id="b5f6db03-80fa-4ed5-8ca9-63344b908e47" Name="Raidwides" Enabled="true">
             <Folders />
             <Triggers>
               <Trigger Enabled="true" Source="FFXIVNetwork" Name="Tidal Roar" Id="a32a508f-ca08-415b-99e5-2f0e7eccf10a" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|3FDC\|">
@@ -43,7 +38,7 @@
               </Trigger>
             </Triggers>
           </Folder>
-          <Folder Id="1bdf177b-777a-4efe-8ac9-7710735d2469" Name="Tankbuster" Enabled="false">
+          <Folder Id="1bdf177b-777a-4efe-8ac9-7710735d2469" Name="Tankbuster" Enabled="true">
             <Folders />
             <Triggers>
               <Trigger Enabled="true" Source="FFXIVNetwork" Name="Rip Current" Id="cf153dcb-5ca8-4284-ab89-15ed5a905afb" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|3FE0\|">
