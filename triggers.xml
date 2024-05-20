@@ -16,46 +16,9 @@
             <Condition Enabled="true" Grouping="Or">
               <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
             </Condition>
-            <Conditions />
           </Trigger>
         </Triggers>
       </Folder>
-
-
-      <Folder Id="613abfec-d2bd-4c4d-a451-23b188057b34" Name="E3S" Enabled="false">
-        <Folders>
-          <Folder Id="b5f6db03-80fa-4ed5-8ca9-63344b908e47" Name="Raidwides" Enabled="true">
-            <Folders />
-            <Triggers>
-              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Tidal Roar" Id="a32a508f-ca08-415b-99e5-2f0e7eccf10a" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|3FDC\|">
-                <Actions>
-                  <Action OrderNumber="1" UseTTSTextExpression="Raidwide" ActionType="UseTTS">
-                    <Condition Enabled="false" Grouping="Or" />
-                  </Action>
-                </Actions>
-                <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
-              </Trigger>
-            </Triggers>
-          </Folder>
-          <Folder Id="1bdf177b-777a-4efe-8ac9-7710735d2469" Name="Tankbuster" Enabled="true">
-            <Folders />
-            <Triggers>
-              <Trigger Enabled="true" Source="FFXIVNetwork" Name="Rip Current" Id="cf153dcb-5ca8-4284-ab89-15ed5a905afb" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|3FE0\|">
-                <Actions>
-                  <Action OrderNumber="1" UseTTSTextExpression="Double Tankbuster" ActionType="UseTTS">
-                    <Condition Enabled="false" Grouping="Or" />
-                  </Action>
-                </Actions>
-                <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
-              </Trigger>
-            </Triggers>
-          </Folder>
-        </Folders>
-        <Triggers />
-      </Folder>
-
       <Folder Id="2eb38f20-9f34-45c6-8380-de5f5a8c6360" Name="O3S" Enabled="true">
         <Folders />
         <Triggers>
@@ -70,7 +33,6 @@
           </Trigger>
         </Triggers>
       </Folder>
-
       <!-- New Folder Goes Here -->
 
       
