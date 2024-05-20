@@ -29,7 +29,7 @@
 
       <Folder Id="613abfec-d2bd-4c4d-a451-23b188057b34" Name="E3S" Enabled="false">
         <Folders>
-          <Folder Id="b5f6db03-80fa-4ed5-8ca9-63344b908e47" Name="Raidwides" Enabled="true">
+          <Folder Id="b5f6db03-80fa-4ed5-8ca9-63344b908e47" Name="Raidwides" Enabled="false">
             <Folders />
             <Triggers>
               <Trigger Enabled="true" Source="FFXIVNetwork" Name="Tidal Roar" Id="a32a508f-ca08-415b-99e5-2f0e7eccf10a" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|3FDC\|">
@@ -43,7 +43,7 @@
               </Trigger>
             </Triggers>
           </Folder>
-          <Folder Id="1bdf177b-777a-4efe-8ac9-7710735d2469" Name="Tankbuster" Enabled="true">
+          <Folder Id="1bdf177b-777a-4efe-8ac9-7710735d2469" Name="Tankbuster" Enabled="false">
             <Folders />
             <Triggers>
               <Trigger Enabled="true" Source="FFXIVNetwork" Name="Rip Current" Id="cf153dcb-5ca8-4284-ab89-15ed5a905afb" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|3FE0\|">
