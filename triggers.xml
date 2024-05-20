@@ -56,6 +56,21 @@
         <Triggers />
       </Folder>
 
+      <Folder Id="2eb38f20-9f34-45c6-8380-de5f5a8c6360" Name="O3S" Enabled="true">
+        <Folders />
+        <Triggers>
+          <Trigger Enabled="true" Source="FFXIVNetwork" Name="Halicarnassus - the Queen's Waltz" Id="2f69948d-336a-4cd8-92a1-e6f9602f6d47" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|2306\|">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Boss Relative Spread" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+        </Triggers>
+      </Folder>
+
       <!-- New Folder Goes Here -->
 
       
