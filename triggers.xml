@@ -45,7 +45,7 @@
           </Trigger>
         </Triggers>
       </Folder>
-      <Folder Id="c154bdd5-0504-423f-8d8e-9ba0a2733a8a" Name="E8S Trial" Enabled="false">
+      <Folder Id="c154bdd5-0504-423f-8d8e-9ba0a2733a8a" Name="E8S Trial" Enabled="true">
         <Folders>
           <Folder Id="6e3d92a4-ecf2-487c-911e-93c2976803c4" Name="Mirror Mirror" Enabled="true">
             <Folders />
@@ -493,7 +493,6 @@
           </Trigger>
         </Triggers>
       </Folder>
-
 
 
       <!-- Manual New Folder Goes Here -->
