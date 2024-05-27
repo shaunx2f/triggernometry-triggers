@@ -33,7 +33,6 @@ def add_folder_to_xml():
 
     filedata = filedata.replace("      <!--replace-->", new_trigger_data)
 
-    print(filedata)
     with open(current_data_file, 'w') as file:
         file.write(filedata)
 
