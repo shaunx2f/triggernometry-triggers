@@ -4,44 +4,40 @@
 
     <Folders>
 
-     <Folder Id="1d3d1985-035d-4de6-9710-baeda0915018" Name="O3S" Enabled="true">
+      <Folder Id="675948a6-abdf-47ed-8e26-4bd56d841871" Name="O3S" Enabled="true">
         <Folders />
         <Triggers>
-          <Trigger Enabled="true" Source="FFXIVNetwork" Name="Halicarnassus - the Queen's Waltz - Tile" Id="613d38ab-96be-4c47-ade4-8badeedc4eb2" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|230E\|">
+          <Trigger Enabled="true" Source="FFXIVNetwork" Name="Halicarnassus - the Queen's Waltz - Tile" Id="37231cc7-9fff-4d71-8e3c-4fdcd3fafdbe" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|230E\|">
             <Actions>
               <Action OrderNumber="1" UseTTSTextExpression="Tile Spread" ActionType="UseTTS">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Trigger>
-          <Trigger Enabled="true" Source="FFXIVNetwork" Name="Halicarnassus - the Queen's Waltz - Protean" Id="7d3a0220-d9d3-4992-966c-d41e2a798e0b" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|2306\|">
+          <Trigger Enabled="true" Source="FFXIVNetwork" Name="Halicarnassus - the Queen's Waltz - Protean" Id="2f69948d-336a-4cd8-92a1-e6f9602f6d47" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|2306\|">
             <Actions>
               <Action OrderNumber="1" UseTTSTextExpression="Boss Relative Spread" ActionType="UseTTS">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Trigger>
-          <Trigger Enabled="true" Source="FFXIVNetwork" Name="Halicarnassus - the Queen's Waltz - Tether" Id="af3abb31-9cc7-433c-bba6-b22ea24a0a2e" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|2308\|">
+          <Trigger Enabled="true" Source="FFXIVNetwork" Name="Halicarnassus - the Queen's Waltz - Tether" Id="770bba6c-893f-4d89-ab7f-733dd4a1aba8" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|2308\|">
             <Actions>
               <Action OrderNumber="1" UseTTSTextExpression="Go Mid" ActionType="UseTTS">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Trigger>
-          <Trigger Enabled="true" Source="FFXIVNetwork" Name="Halicarnassus - the Queen's Waltz - Blue Tile" Id="70748fcd-986b-4b5b-a972-e7c3bf75c6a8" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|230A\|">
+          <Trigger Enabled="true" Source="FFXIVNetwork" Name=" Halicarnassus - the Queen's Waltz - Blue Tile" Id="2e59c687-825c-493d-80f7-85cfdd6e3c47" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|230A\|">
             <Actions>
               <Action OrderNumber="1" UseTTSTextExpression="Blue Tile" ActionType="UseTTS">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Trigger>
         </Triggers>
       </Folder>
