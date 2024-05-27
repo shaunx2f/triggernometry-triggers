@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="f1c24e2b-2ca9-47a4-ac6c-0324f42437a7" Name="Shaun's Triggers" Enabled="true">
+
+    <Folders>
+
+     <Folder Id="1d3d1985-035d-4de6-9710-baeda0915018" Name="O3S" Enabled="true">
+        <Folders />
+        <Triggers>
+          <Trigger Enabled="true" Source="FFXIVNetwork" Name="Halicarnassus - the Queen's Waltz - Tile" Id="613d38ab-96be-4c47-ade4-8badeedc4eb2" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|230E\|">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Tile Spread" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Source="FFXIVNetwork" Name="Halicarnassus - the Queen's Waltz - Protean" Id="7d3a0220-d9d3-4992-966c-d41e2a798e0b" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|2306\|">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Boss Relative Spread" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Source="FFXIVNetwork" Name="Halicarnassus - the Queen's Waltz - Tether" Id="af3abb31-9cc7-433c-bba6-b22ea24a0a2e" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|2308\|">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Go Mid" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Source="FFXIVNetwork" Name="Halicarnassus - the Queen's Waltz - Blue Tile" Id="70748fcd-986b-4b5b-a972-e7c3bf75c6a8" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|230A\|">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Blue Tile" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+        </Triggers>
+      </Folder>
+
+
+
+      <!-- Manual New Folder Goes Here -->
+
+      
+    </Folders>
+
+
+    <!--Wipe Trigger-->
+
+    <Triggers>
+      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Wipe" Id="041643aa-865a-48c8-88f6-20f05576b6bc" RegularExpression="^(01|33\|[^|]*\|[^|]*\|400000(?&gt;03|0F)\|)">
+        <Actions>
+          <Action OrderNumber="1" ActionType="Repository" ExecutionDelayExpression="500">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+    </Triggers>
+
+
+
+
+
+
+
+
+  </ExportedFolder>
+</TriggernometryExport>
