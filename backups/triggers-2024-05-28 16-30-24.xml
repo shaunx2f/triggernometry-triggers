@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="f1c24e2b-2ca9-47a4-ac6c-0324f42437a7" Name="Shaun's Triggers" Enabled="true">
+
+    <Folders>
+
+
+
+
+      <!-- Manual New Folder Goes Here -->
+
+      
+    </Folders>
+
+
+    <!--Wipe Trigger-->
+
+    <Triggers>
+      <Trigger Enabled="true" Source="FFXIVNetwork" Name="Wipe" Id="041643aa-865a-48c8-88f6-20f05576b6bc" RegularExpression="^(01|33\|[^|]*\|[^|]*\|400000(?&gt;03|0F)\|)">
+        <Actions>
+          <Action OrderNumber="1" ActionType="Repository" ExecutionDelayExpression="500">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+    </Triggers>
+
+
+
+
+
+
+
+
+  </ExportedFolder>
+</TriggernometryExport>
