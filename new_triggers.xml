@@ -1,0 +1,330 @@
+    <Folders>
+      <Folder Id="421e962a-885d-49d4-9dda-6ac6eac62219" Name="Casts" Enabled="true">
+        <Folders>
+          <Folder Id="0e9941f0-f616-4feb-8e72-d7155593962b" Name="Begins Casting" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Wicked Special" Id="df07a130-5b81-466b-9840-5ef2ffe91f54" RegularExpression="Wicked Thunder begins casting Wicked Special" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Middle OR Sides check glow" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Cross Tail Switch" Id="b17cf5cc-3bd2-4c0c-ae3e-0da0a3c062e5" RegularExpression="Wicked Thunder begins casting Cross Tail Switch" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Tank LB3" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Check exaflares in groups" ActionType="UseTTS" ExecutionDelayExpression="3000">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Mustard Bomb" Id="fc6ed590-4dd2-4020-a61a-5d14347225ae" RegularExpression="Wicked Thunder begins casting Mustard Bomb" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Tank Tethers Party go to spread position" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="If you didn't get hit take rot from tanks" Enabled="False" ActionType="UseTTS" ExecutionDelayExpression="5000">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Aetherial Conversion" Id="655c6843-07b1-4bd4-860b-977611c7b5d0" RegularExpression="Wicked Thunder begins casting Aetherial Conversion" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Check fire or ice" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Tail Thrust" Id="d29c39d0-409b-4ef7-aef7-9f4fa6567f8c" RegularExpression="Wicked Thunder begins casting Tail Thrust" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Fire Front or Water Sides" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Azure Thunder" Id="c6cec0e1-5f41-42df-b3fd-d81952dc901d" RegularExpression="Wicked Thunder begins casting Azure Thunder" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Raidwide go Middle" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Wicked Fire" Id="09ffb1b7-0e2e-4a5e-8809-307ef0de308f" RegularExpression="Wicked Thunder begins casting Wicked Special" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Wait for puddles to appear" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Concentrated Burst" Id="5b5c4367-84d8-4d45-b9a3-ece62d8d3b66" RegularExpression="Wicked Thunder begins casting Concentrated Burst" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Pair First then spread second" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Wicked Thunder" Id="54359027-2db9-4972-859b-028c9e64c9df" RegularExpression="Wicked Thunder begins casting Wicked Thunder" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Raidwide" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Flame Slash" Id="cc58c607-f1db-4eda-b58f-1d9f248c752a" RegularExpression="Wicked Thunder begins casting Flame Slash" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Light Partys West East Towers" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Sunrise Sabbath" Id="140f6581-9d47-4894-9cdf-f5932b7a6216" RegularExpression="Wicked Thunder begins casting Sunrise Sabbath" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Towers spawn where wing clones face" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Supports West and North DPS East and South" ActionType="UseTTS" ExecutionDelayExpression="3000">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Sword Quiver" Id="a3c06e89-13ad-4b86-88e7-9589e85998ca" RegularExpression="Wicked Thunder begins casting Sword Quiver" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Pairs with safe spots" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Midnight Sabbath" Id="cfb1f2dc-8cc0-4eae-bc7f-ea11c1b8bead" RegularExpression="Wicked Thunder begins casting Midnight Sabbath" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Check next cast for pair or spread first" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Check Clones" ActionType="UseTTS" ExecutionDelayExpression="3000">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="04dbfecb-ae07-4f1a-8361-7e5b31c90215" Name="Readies" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Wicked Special" Id="abbeb31c-11f4-4d31-9cdb-debdc6d8779c" RegularExpression="Wicked Thunder readies Wicked Special" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Middle OR Sides check glow" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Cross Tail Switch" Id="79c45082-0b74-4284-b5fb-ed7bfd580a43" RegularExpression="Wicked Thunder readies Cross Tail Switch" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Tank LB3" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Check exaflares in groups" ActionType="UseTTS" ExecutionDelayExpression="3000">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Mustard Bomb" Id="292f690d-ae60-4ac5-b1ac-3a902d95a21e" RegularExpression="Wicked Thunder readies Mustard Bomb" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Tank Tethers Party go to spread position" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="If you didn't get hit take rot from tanks" Enabled="False" ActionType="UseTTS" ExecutionDelayExpression="5000">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Aetherial Conversion" Id="8ef1c583-2476-47c9-9c29-4e978549ec36" RegularExpression="Wicked Thunder readies Aetherial Conversion" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Check fire or ice" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Tail Thrust" Id="3720c0e8-0421-45ef-9fae-e81ec4d3c944" RegularExpression="Wicked Thunder readies Tail Thrust" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Fire Front or Water Sides" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Azure Thunder" Id="50f810c0-5f83-423b-9558-0a2cf777c748" RegularExpression="Wicked Thunder readies Azure Thunder" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Raidwide go Middle" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Wicked Fire" Id="a22f8a6c-fef5-4af4-81d7-874ae40c942d" RegularExpression="Wicked Thunder readies Wicked Special" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Wait for puddles to appear" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Concentrated Burst" Id="8786a886-53de-469e-b7f2-6d2963567f2c" RegularExpression="Wicked Thunder readies Concentrated Burst" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Pair First then spread second" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Wicked Thunder" Id="542ffbc9-7538-4f80-9e89-16d5514e776f" RegularExpression="Wicked Thunder readies Wicked Thunder" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Raidwide" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Flame Slash" Id="5bed350d-ae12-4e8d-9425-a454d71db6f8" RegularExpression="Wicked Thunder readies Flame Slash" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Light Partys West East Towers" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Sunrise Sabbath" Id="dcaa35f5-69f5-477b-b3e9-868a3896cb35" RegularExpression="Wicked Thunder readies Sunrise Sabbath" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Towers spawn where wing clones face" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Supports West North DPS East South" ActionType="UseTTS" ExecutionDelayExpression="3000">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Sword Quiver" Id="bdc6af7c-01e1-4005-ace9-067529f60385" RegularExpression="Wicked Thunder readies Sword Quiver" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Pairs with safe spots" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Midnight Sabbath" Id="c971036d-54cc-4f1e-bb28-8a8fbc67eddf" RegularExpression="Wicked Thunder readies Midnight Sabbath" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                <Actions>
+                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Check next cast for pair or spread first" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Check Clones" ActionType="UseTTS" ExecutionDelayExpression="3000">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder Id="505f1d43-293b-49f3-8984-1c48966a5ce0" Name="Debuffs" Enabled="true">
+        <Folders />
+        <Triggers>
+          <Trigger Enabled="true" Source="FFXIVNetwork" Name="FA2 - Green Far" Id="75a20a8c-35f8-4d91-b3ea-53a579517edd" RegularExpression="^26\|[^|]*\|FA2\|[^|]*\|5.00\|[^|]*\|[^|]*\|[^|]*\|(?&lt;name&gt;[^|]*)\|(?&lt;count&gt;[^|]*)\|" PeriodRefire="Deny" RefirePeriodExpression="500">
+            <Actions>
+              <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="South Far" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Trigger>
+          <Trigger Enabled="true" Source="FFXIVNetwork" Name="FA4 - Small Spread" Id="256cb671-1fb2-45ea-ad6b-dce01daa30e2" RegularExpression="^26\|[^|]*\|FA4\|[^|]*\|5.00\|[^|]*\|[^|]*\|[^|]*\|(?&lt;name&gt;[^|]*)\|(?&lt;count&gt;[^|]*)\|" PeriodRefire="Deny" RefirePeriodExpression="500">
+            <Actions>
+              <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Spread North" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Trigger>
+          <Trigger Enabled="true" Source="FFXIVNetwork" Name="FA6 - Purple Cleanse" Id="733cc700-fdc0-4338-be1e-5e25bc8396fd" RegularExpression="^26\|[^|]*\|FA6\|[^|]*\|7.00\|[^|]*\|[^|]*\|[^|]*\|(?&lt;name&gt;[^|]*)\|(?&lt;count&gt;[^|]*)\|" PeriodRefire="Deny" RefirePeriodExpression="500">
+            <Actions>
+              <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Purple, Check Close Far" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Trigger>
+          <Trigger Enabled="true" Source="FFXIVNetwork" Name="FA3 - Blue Close" Id="b11fcb6e-55dc-4a4f-97f0-8c71b1e5e9d1" RegularExpression="^26\|[^|]*\|FA3\|[^|]*\|5.00\|[^|]*\|[^|]*\|[^|]*\|(?&lt;name&gt;[^|]*)\|(?&lt;count&gt;[^|]*)\|" PeriodRefire="Deny" RefirePeriodExpression="500">
+            <Actions>
+              <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="South Close" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Trigger>
+          <Trigger Enabled="true" Source="FFXIVNetwork" Name="FA5 - Donut" Id="10822595-4e9f-47f5-a1e7-0d2e6e38c5be" RegularExpression="^26\|[^|]*\|FA5\|[^|]*\|5.00\|[^|]*\|[^|]*\|[^|]*\|(?&lt;name&gt;[^|]*)\|(?&lt;count&gt;[^|]*)\|" PeriodRefire="Deny" RefirePeriodExpression="500">
+            <Actions>
+              <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Donut North" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
+          </Trigger>
+        </Triggers>
+      </Folder>
+    </Folders>
