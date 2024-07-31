@@ -4,7 +4,6 @@
 
     <Folders>
 
-    <Folders>
       <Folder Id="421e962a-885d-49d4-9dda-6ac6eac62219" Name="Casts" Enabled="true">
         <Folders>
           <Folder Id="0e9941f0-f616-4feb-8e72-d7155593962b" Name="Begins Casting" Enabled="true">
@@ -278,62 +277,6 @@
         </Folders>
         <Triggers />
       </Folder>
-      <Folder Id="505f1d43-293b-49f3-8984-1c48966a5ce0" Name="Debuffs" Enabled="true">
-        <Folders />
-        <Triggers>
-          <Trigger Enabled="true" Source="FFXIVNetwork" Name="FA2 - Green Far" Id="75a20a8c-35f8-4d91-b3ea-53a579517edd" RegularExpression="^26\|[^|]*\|FA2\|[^|]*\|5.00\|[^|]*\|[^|]*\|[^|]*\|(?&lt;name&gt;[^|]*)\|(?&lt;count&gt;[^|]*)\|" PeriodRefire="Deny" RefirePeriodExpression="500">
-            <Actions>
-              <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="South Far" ActionType="UseTTS">
-                <Condition Enabled="false" Grouping="Or" />
-              </Action>
-            </Actions>
-            <Condition Enabled="true" Grouping="Or">
-              <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-            </Condition>
-          </Trigger>
-          <Trigger Enabled="true" Source="FFXIVNetwork" Name="FA4 - Small Spread" Id="256cb671-1fb2-45ea-ad6b-dce01daa30e2" RegularExpression="^26\|[^|]*\|FA4\|[^|]*\|5.00\|[^|]*\|[^|]*\|[^|]*\|(?&lt;name&gt;[^|]*)\|(?&lt;count&gt;[^|]*)\|" PeriodRefire="Deny" RefirePeriodExpression="500">
-            <Actions>
-              <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Spread North" ActionType="UseTTS">
-                <Condition Enabled="false" Grouping="Or" />
-              </Action>
-            </Actions>
-            <Condition Enabled="true" Grouping="Or">
-              <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-            </Condition>
-          </Trigger>
-          <Trigger Enabled="true" Source="FFXIVNetwork" Name="FA6 - Purple Cleanse" Id="733cc700-fdc0-4338-be1e-5e25bc8396fd" RegularExpression="^26\|[^|]*\|FA6\|[^|]*\|7.00\|[^|]*\|[^|]*\|[^|]*\|(?&lt;name&gt;[^|]*)\|(?&lt;count&gt;[^|]*)\|" PeriodRefire="Deny" RefirePeriodExpression="500">
-            <Actions>
-              <Action OrderNumber="1" SoundRouting="None" TTSRouting="ACT" UseTTSTextExpression="Purple, Check Close Far" ActionType="UseTTS">
-                <Condition Enabled="false" Grouping="Or" />
-              </Action>
-            </Actions>
-            <Condition Enabled="true" Grouping="Or">
-              <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-            </Condition>
-          </Trigger>
-          <Trigger Enabled="true" Source="FFXIVNetwork" Name="FA3 - Blue Close" Id="b11fcb6e-55dc-4a4f-97f0-8c71b1e5e9d1" RegularExpression="^26\|[^|]*\|FA3\|[^|]*\|5.00\|[^|]*\|[^|]*\|[^|]*\|(?&lt;name&gt;[^|]*)\|(?&lt;count&gt;[^|]*)\|" PeriodRefire="Deny" RefirePeriodExpression="500">
-            <Actions>
-              <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="South Close" ActionType="UseTTS">
-                <Condition Enabled="false" Grouping="Or" />
-              </Action>
-            </Actions>
-            <Condition Enabled="true" Grouping="Or">
-              <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-            </Condition>
-          </Trigger>
-          <Trigger Enabled="true" Source="FFXIVNetwork" Name="FA5 - Donut" Id="10822595-4e9f-47f5-a1e7-0d2e6e38c5be" RegularExpression="^26\|[^|]*\|FA5\|[^|]*\|5.00\|[^|]*\|[^|]*\|[^|]*\|(?&lt;name&gt;[^|]*)\|(?&lt;count&gt;[^|]*)\|" PeriodRefire="Deny" RefirePeriodExpression="500">
-            <Actions>
-              <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" UseTTSTextExpression="Donut North" ActionType="UseTTS">
-                <Condition Enabled="false" Grouping="Or" />
-              </Action>
-            </Actions>
-            <Condition Enabled="true" Grouping="Or">
-              <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-            </Condition>
-          </Trigger>
-        </Triggers>
-      </Folder>
-    </Folders>
 
 
       <!-- Manual New Folder Goes Here -->
